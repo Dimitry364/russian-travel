@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .photo-grid {
+    .photo-grid__items {
         gap: calc((100vw - 320px) / (768 - 320) * (16 - 12) + 12px);
     }
 }
