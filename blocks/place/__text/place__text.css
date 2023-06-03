@@ -1,0 +1,17 @@
+.place__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__text {
+        row-gap: calc((100vw - 768px) / (1024 - 768) * (26 - 25) + 25px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__text {
+        margin: 0 16px;
+    }
+}

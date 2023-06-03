@@ -1,0 +1,25 @@
+.lead__city-ellipse {
+    animation: ellipse 10s linear forwards;
+}
+
+@keyframes ellipse {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.3;
+    }
+
+    15% {
+        opacity: .5;
+    }
+
+    20% {
+        opacity: .8;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

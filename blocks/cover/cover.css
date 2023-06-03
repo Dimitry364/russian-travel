@@ -1,0 +1,18 @@
+.cover {
+    max-width: 1184px;
+    margin: 92px auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin-top: calc((100vw - 768px) / (1024 - 768) * (92 - 90) + 90px);
+        margin-bottom: calc((100vw - 768px) / (1024 - 768) * (92 - 88) + 88px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: calc((100vw - 320px) / (768 - 320) * (90 - 66) + 66px);
+        margin-bottom: calc((100vw - 320px) / (768 - 320) * (88 - 64) + 64px);
+    }
+}
