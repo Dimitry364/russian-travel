@@ -31,6 +31,7 @@
 
 ## Репозиторий:
 
-[GitHubLink](https://github.com/Dimitry364/how-to-learn)
+[GitHubLink](git@github.com:Dimitry364/russian-travel.git)
 
 ## Ссылка на сайт:
+https://dimitry364.github.io/russian-travel/
